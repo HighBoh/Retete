@@ -1283,9 +1283,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 # Content
 --------------------------------------------------------------*/
 #content main {
-	float: right;
-	width: 69%;
-	padding: 0px 40px 20px 0;
+	float: none;
+	width: 100%;
+	padding: 20px;
 }
 
 article, .entry-content{
