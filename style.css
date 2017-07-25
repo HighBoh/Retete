@@ -1,7 +1,4 @@
 /*
-
-------------- RETETE ------------------ ;)
-
 Theme Name: Seos Photography
 Theme URI: http://seosthemes.com/free-wordpress-photography-theme/
 Author: SEOS - Tsvetomir Tsvetanov
@@ -14,6 +11,7 @@ Copyright: Tsvetomir Tsvetanov 2017
 Text Domain: seos-photography
 Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, flexible-header, buddypress, custom-background, custom-header, custom-logo, custom-menu, custom-colors, editor-style, featured-image-header, featured-images, full-width-template, footer-widgets, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, education, entertainment, food-and-drink, holiday, news, photography, portfolio
 */
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -1283,9 +1281,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 # Content
 --------------------------------------------------------------*/
 #content main {
-	float: none;
-	width: 100%;
-	padding: 20px;
+	float: right;
+	width: 69%;
+	padding: 0px 40px 20px 0;
 }
 
 article, .entry-content{
