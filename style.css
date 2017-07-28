@@ -538,7 +538,8 @@ textarea[name="seos-message"] {
 #site-navigation {
 	padding: 5px;
 	width: 100%;
-	background: #333333;
+
+	background: ##3ba29c;
 	display: block;
 	margin: 0 auto;
 	text-transform: uppercase;
@@ -624,10 +625,13 @@ textarea[name="seos-message"] {
 }
 
 .main-navigation ul li a {
+	font-family: Marcellus;
 	display: block;
 	padding: 12px;
 	color: #DEDEE2;
 	text-decoration: none;
+	text-shadow: 4px 4px 2px #888;
+	
 }
 
 .main-navigation ul ul {
@@ -847,7 +851,9 @@ header .header-img .site-description {
 
 
 header .site-branding .site-title a {
-    color: #fff;
+    font-family: Marcellus;	
+    color: rgb(211, 255, 251);
+    text-shadow: 2px 2px 2px #888;
     word-wrap: break-word;
     text-decoration: none;
     font-size: 8vw;
@@ -855,7 +861,7 @@ header .site-branding .site-title a {
     -moz-transition: all 0.4s linear 0s;
     -o-transition: all 0.4s linear 0s;
     transition: all 0.4s linear 0s;
-}
+}   
 
 header .site-branding .site-title a:hover {
 	color: #0DA29E;
@@ -864,7 +870,7 @@ header .site-branding .site-title a:hover {
 header  .site-branding .site-description {
 	text-align: center;
 	color: #42c5be;
-	font-family: 'Oswald', sans-serif;
+	font-family: inherit;
 	font-size: 2vw;
 	margin: 0;
 	padding: 0 0 10px 5px;
