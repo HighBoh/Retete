@@ -876,6 +876,17 @@ header  .site-branding .site-description {
 	padding: 0 0 10px 5px;
 }
 
+.sous_titre{
+ font-size: 18px;
+ color: white;
+ background: rgba(255,255,255,0.1);
+ border-radius: 2vw;
+ width: 90%;
+ margin: 30px auto 0;
+ height: calc(820px - 35vw);
+ min-height: 440px;
+}
+
 .seos-ads {
 	border: 1px solid black;
 	width: 600px;
