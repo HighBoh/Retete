@@ -782,13 +782,13 @@ header .site-branding {
 
 header .header-img {
 	width: auto;
-    height: 200px;
+	height: 30vh;
 	position: relative;
-    display: block;
-    z-index: 1;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	display: block;
+	z-index: 1;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .site-header {
@@ -827,21 +827,21 @@ header .site-branding .site-title  {
 }
 
 header .header-img .site-title a {
-	font-family: 'Oswald', sans-serif;
-	font-size: 80px;
+	font-family: inherit;
+	font-size: 8vw;
 	margin-top: 0;
 	padding: 10px;
 	word-wrap: break-word;
-	font-weight: 900;	color: #fff;
+	font-weight: 900;
+	color: #fff;
 }
 
 header .header-img .site-description {
 	text-align: center;
 	color: #fff;
- 	font-family: 'Oswald', sans-serif;
-	font-size: 12px;
-	margin: 0;
-	padding: 0 20px  20px  20px;
+	font-family: inherit;
+	margin-bottom: 100px;
+	padding: 0;
 }
 
 .header-img p {
@@ -861,7 +861,7 @@ header .site-branding .site-title a {
     -moz-transition: all 0.4s linear 0s;
     -o-transition: all 0.4s linear 0s;
     transition: all 0.4s linear 0s;
-}   
+}
 
 header .site-branding .site-title a:hover {
 	color: #0DA29E;
@@ -877,14 +877,78 @@ header  .site-branding .site-description {
 }
 
 .sous_titre{
- font-size: 18px;
- color: white;
- background: rgba(255,255,255,0.1);
- border-radius: 2vw;
- width: 90%;
- margin: 30px auto 0;
- height: calc(820px - 35vw);
- min-height: 440px;
+  display: none;
+}
+
+body.home .sous_titre{
+  display: block;
+  font-size: 18px;
+  color: #111;
+  background: url(images/plaque.jpg) rgba(255,255,255,0.1);
+  opacity: 0.9;
+  border-radius: 2vw;
+  width: 90%;
+  margin: 30px auto 0;
+  height: calc(820px - 35vw);
+  min-height: 440px;
+  /* padding: 2vw; */
+  font-size: 1.35rem;
+  position: relative;
+  text-shadow: 1px 1px 2px #888;
+}
+
+.sous-titre-centre {
+  display: block;
+  width: 60%;
+  /* height: 100%; */
+  vertical-align: middle;
+  padding: 2vw;
+  margin: auto;
+}
+
+.sous-titre-centre img {
+  max-width: 462px;
+  width: 100%;
+  margin: 1.5vw 0;
+  opacity: 0.9;
+}
+
+.potar-g, .potar-d {
+  display: block;
+  width: 18%;
+  position: relative;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  max-width: 195px;
+  top: 0;
+  margin: 0 2vw;
+}
+.potar-g img, .potar-d img {
+  display: block;
+  margin: auto;
+  /* width: 150px; */
+  position: relative;
+  top: 2vw;
+}
+
+.potar-g {
+    left: 0;
+}
+
+.potar-d {
+    right: 0;
+}
+
+.volume {
+  //retete
+}
+
+img.curseurs {
+  position: absolute;
+  bottom: 2vw;
+  margin: 0 auto;
+  top: initial;
 }
 
 .sp-description2{
