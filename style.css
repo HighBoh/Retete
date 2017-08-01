@@ -308,7 +308,8 @@ p {
 }
 
 article p, aside a, main p {
-	line-height: 18px;
+	line-height: 1em;
+	font-size: 1.5em;
 }
 
 dfn,
@@ -884,7 +885,7 @@ body.home .sous_titre{
   display: block;
   font-size: 18px;
   color: #111;
-  background: url(images/plaque.jpg) rgba(255,255,255,0.1);
+  background: url(images/plaque.jpg) left center/1750px 720px rgba(255,255,255,0.1);
   opacity: 0.9;
   border-radius: 2vw;
   width: 90%;
@@ -1385,11 +1386,13 @@ article header {
 
 article header h1,
 article header h2  {
-	border-bottom: 1px dashed #CECECE;
+	border-bottom: 0;
 	margin: 0;
 	font-weight: 900;
-    font-size: 21px;
+	font-size: 2rem;
 	color: #555555;
+	text-align: center;
+	line-height: 75px;
 }
 
 article .fa {
@@ -1559,7 +1562,7 @@ article .fa {
 
 .read-more {
 	display: inline-block;
-	width: 100px;
+	width: 120px;
 	margin-top: 5px;
 	text-align: center;
 	background-color: #064441;
@@ -1573,16 +1576,25 @@ article .fa {
 	color: #fff;
 }
 
+.ex-right > p {
+  text-align: justify;
+}
+
+p.link-more{
+  text-align: right;
+  margin-right: 2vw;
+}
+
 .entry-header {
-	display: inline;
+	display: block;
 }
 
 .cont-img {
-	width: 350px;
-	height: 250px;
-	display: inline-block;
+	width: 150px;
+	height: auto;
+	display: block;
 	float: left;
-	margin: 10px 10px 10px 0;
+	margin: 10px 20px 10px 0;
 }
 
 /*--------------------------------------------------------------
@@ -1677,24 +1689,28 @@ aside ul ul li {
 	padding: 10px 10px 10px 0;
 	color: #333;
 	font-size: 21px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-#content article   {
+#content article {
 	width: 100%;
-	border-bottom: 1px dashed #CECECE;
-    margin-top: 20px;
-	padding: 10px;
-	display: inline-block;
-
+	margin: 20px auto 0;
+	padding: 1vw 1vw 1vw 120px;
+	display: block;
+	background: url('images/volume.png') no-repeat 10px 1vw/100px, url('images/plaque.jpg');
+	border-radius: 20px;
 }
 
 #content section, .widget-title {
-    margin-top: 0;
+  margin-top: 0;
+}
+
+article div.ex-right {
+  display: block;
 }
 
 .site-content {
-	max-width: 1300px;
+	max-width: 1150px;
 	margin: 0 auto;
 }
 
@@ -1920,9 +1936,9 @@ object {
 
 .wp-post-image {
 	width: 350px;
-	height: 250px;
+	height: auto;
 	display: block;
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 /*--------------------------------------------------------------
