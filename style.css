@@ -2084,7 +2084,7 @@ object {
 	position: relative;
 	z-index: 2;
 	display: block;
-	border-radius: 15px;
+	border-radius: 8px;
     	box-shadow: 1px 1px 1px #aaa;
 	
 }
