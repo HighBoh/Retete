@@ -1944,7 +1944,8 @@ object {
 	height: auto;
 	display: block;
 	margin-right: 0;
-	border-radius: 2vw;
+	border-radius: 1vw;
+	box-shadow: 0px 3px 7px #777;
 }
 
 /*--------------------------------------------------------------
