@@ -1751,10 +1751,11 @@ article div.ex-right {
 # Footer
 --------------------------------------------------------------*/
 .site-footer {
-    background: #333333;
-	padding: 40px;
-	color: #ffffff;
-	font-size: 13px;
+    background: #3ba29c;
+    padding: 40px;
+    color: #ffffff;
+    font-size: 13px;
+    box-shadow: inset 0px 17px 56px -13px rgba(91,91,91,1);
 }
 
 .site-footer .widgettitle {
