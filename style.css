@@ -1580,12 +1580,12 @@ article .fa {
 }
 
 .ex-right > p {
-  text-align: justify;
+  text-align: center;
 }
 
 p.link-more{
-  text-align: right;
-  margin-right: 2vw;
+  text-align: center;
+  /* margin-right: 2vw; */
 }
 
 .entry-header {
@@ -1593,11 +1593,12 @@ p.link-more{
 }
 
 .cont-img {
-	width: 150px;
-	height: auto;
 	display: block;
-	float: left;
-	margin: 10px 20px 10px 0;
+	width: auto;
+	max-width: 650px;
+	height: auto;
+	float: none;
+	margin: 10px auto;
 }
 
 /*--------------------------------------------------------------
@@ -1696,11 +1697,11 @@ aside ul ul li {
 }
 
 #content article {
-	width: 100%;
-	margin: 20px auto 0;
-	padding: 1vw 1vw 1vw 120px;
-	display: block;
-	background: url('images/volume.png') no-repeat 10px 1vw/100px, url('images/plaque.jpg');
+	display: inline-block;
+	width: 42%;
+	margin: 20px 3.5%;
+	padding: 1vw 1.5vw 1vw 120px;
+	background: url('images/curseurs-g.png') no-repeat 10px calc(100% - 25px)/100px, url('images/volume.png') no-repeat 10px 1vw/100px, url('images/metal-tile.jpg') #ccc;
 	border-radius: 20px;
 }
 
@@ -1713,7 +1714,7 @@ article div.ex-right {
 }
 
 .site-content {
-	max-width: 1150px;
+	max-width: 1700px;
 	margin: 0 auto;
 }
 
@@ -1939,10 +1940,11 @@ object {
 }
 
 .wp-post-image {
-	width: 350px;
+	width: 100%;
 	height: auto;
 	display: block;
-  margin-right: 5px;
+	margin-right: 0;
+	border-radius: 2vw;
 }
 
 /*--------------------------------------------------------------
