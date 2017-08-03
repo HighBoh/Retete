@@ -955,9 +955,13 @@ img.curseurs {
 }
 
 .sp-description2{
-  font-size: 18px;
-  max-width: 250px;
-  margin: 10px auto 0;
+    font-size: 18px;
+    max-width: 400px;
+    margin: 10px auto 0;
+    background: url(images/metal-tile.jpg);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #999;
+    padding: 5px;
 }
 
 .seos-ads {
