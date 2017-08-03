@@ -887,7 +887,7 @@ body.home .sous_titre{
   display: block;
   font-size: 18px;
   color: #111;
-  background: url(images/plaque.jpg) left center/1750px 720px rgba(255,255,255,0.1);
+  background: url(images/metal-tile.jpg);
   opacity: 0.9;
   border-radius: 2vw;
   width: 90%;
