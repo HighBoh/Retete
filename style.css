@@ -1165,8 +1165,8 @@ a:active {
 }
 
 .postpagination {
+  display: none;
 	width: 100%;
-	font-family: 'Oswald', sans-serif;
 }
 
 .postpagination a {
@@ -1704,16 +1704,26 @@ aside ul ul li {
 }
 
 #content article {
-	display: inline-block;
-	width: 42%;
-	margin: 20px 3.5%;
-	padding: 1vw 1.5vw 1vw 120px;
-	background: url('images/curseurs-g.png') no-repeat 10px calc(100% - 25px)/100px, url('images/volume.png') no-repeat 10px 1vw/100px, url('images/metal-tile.jpg') #ccc;
-	border-radius: 20px;
+	display: initial;
 }
 
 #content section, .widget-title {
   margin-top: 0;
+}
+.post-base {
+  display: inintial;
+  width: 90%;
+  margin: 20px auto;
+  padding: 1vw 1.5vw 1vw 120px;
+  background: url('images/curseurs-g.png') no-repeat 10px calc(100% - 25px)/100px, url('images/volume.png') no-repeat 10px 1vw/100px, url('images/metal-tile.jpg') #ccc;
+  border-radius: 20px;
+
+}
+
+.not-single {
+  display: inline-block;
+  width: 42%;
+  margin: 20px 3vw;
 }
 
 article div.ex-right {
