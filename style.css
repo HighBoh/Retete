@@ -1408,6 +1408,11 @@ article header h2  {
 	line-height: 2rem;
 }
 
+h2.entry-title {
+    font-size: 1.8vw;
+    margin: 1vw auto;
+}
+
 article .fa {
    color: #333333;
    padding: 3px;
@@ -1591,11 +1596,12 @@ article .fa {
 
 .ex-right > p {
   text-align: center;
+  font-size: 1.3vw;
 }
 
 p.link-more{
   text-align: center;
-  /* margin-right: 2vw; */
+  font-size: 1.5em;
 }
 
 .entry-header {
