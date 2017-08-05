@@ -294,9 +294,10 @@ h5,
 h6 {
 	clear: both;
 	font-family: 'Exo', sans-serif;
-    font-weight: 900;
+	font-weight: 900;
 	padding: 10px 0 10px 0;
-    color: #999999;
+	text-shadow: 0 1px 0px #999;
+	color: #0da29e;
 }
 
 h5, h6 {
@@ -456,12 +457,13 @@ input[type="reset"] {
 	border-color: #ccc #ccc #bbb;
 	border-radius: 3px;
 	font-size: 12px;
-	font-size: 0.75rem;
-	line-height: 1;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
 	padding: .6em 1em .4em;
 	text-shadow: #0DA29E;
 	color: #FFFFFF;
-    background: #0DA29E;
+	display: inline-block;
+	background: #0DA29E;
 }
 
 button:hover,
@@ -1345,9 +1347,10 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     -webkit-appearance: button;
     cursor: pointer;
     color: #FFFFFF;
-    padding: 3px 5px 3px 5px;
-	background: #0DA29E;
-	border:none;
+    padding: 0.4vw 1.4vw;
+    background: #0DA29E;
+    border:none;
+    display: inline-block;
 }
 
 .widget_search .search-form .search-field{
@@ -1397,9 +1400,9 @@ article header {
 article header h1,
 article header h2  {
 	border-bottom: 0;
-	margin: 0;
+	margin-bottom: 40px;
 	font-weight: 900;
-	font-size: 1.5rem;
+	font-size: 2.6rem;
 	color: #555555;
 	text-align: center;
 	line-height: 2rem;
@@ -1645,6 +1648,64 @@ p.link-more{
 	margin: 0 0 1.5em;
 }
 
+.legende-tarifs {
+    display: inline-block;
+    max-width: 400px;
+    width: 49%;
+    height: auto;
+    margin: 0 2.4%;
+    vertical-align: middle;
+ }
+
+.legende-tarifs h2{
+  /* color: red; */
+  margin: 0;
+  font-size: 1.5vw;
+}
+
+.cont-img-tarifs {
+    display: inline-block;
+    width: 40%;
+    max-width: 420px;
+    margin: 0 2.4%;
+    vertical-align: middle;
+}
+
+.img-tarifs {
+    display: block;
+    box-shadow: 3px 3px 5px #999;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 420px;
+}
+
+.cont-tarifs {
+	display: inline-block;
+	/* max-width: 1600px; */
+	width: 100%;
+	position: relative;
+	margin: 2.3vw auto;
+	text-align: center;
+}
+
+.boutons-tarifs {
+	display: inline-block;
+	/* margin-right: 10%; */
+	max-width: 400px;
+	width: 100%;
+}
+
+button.bt-tarifs {
+    font-size: 1.2vw;
+    /* width: 90px; */
+    margin: auto;
+    margin: 0.5vw;
+}
+
+p.text-tarifs {
+    margin-bottom: 1.8vw;
+}
+
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
@@ -1705,6 +1766,7 @@ aside ul ul li {
 
 #content article {
 	display: initial;
+	padding: 0;
 }
 
 #content section, .widget-title {
