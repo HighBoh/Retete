@@ -1580,18 +1580,22 @@ article .fa {
 
 .read-more {
 	display: inline-block;
-	width: 120px;
+	width: 150px;
 	margin-top: 10px;
 	text-align: center;
 	background-color: #064441;
-	padding: 4px 8px 4px 8px;
-	border: 1px solid #0C8E8A;
+	padding: 14px 18px;
+	border: none;
 	color: #fff;
+	border-radius: 10px;
+	box-shadow: 3px 3px 8px #888;
 }
 
 .read-more:hover {
 	background: #0D9992;
 	color: #fff;
+	border: none;
+	box-shadow: 1px 1px 4px #444;
 }
 
 .ex-right > p {
@@ -1666,7 +1670,7 @@ p.link-more{
 .legende-tarifs h2{
   /* color: red; */
   margin: 0;
-  font-size: 1.5vw;
+  font-size: 1.7rem;
 }
 
 .cont-img-tarifs {
