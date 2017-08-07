@@ -297,7 +297,7 @@ h6 {
 	font-weight: 900;
 	padding: 10px 0 10px 0;
 	text-shadow: 0 1px 0px #999;
-	color: #0da29e;
+	color: #074542;
 }
 
 h5, h6 {
@@ -809,9 +809,9 @@ header .header-img {
     width: 100%;
     height: 100%;
     z-index: 9999;
-	background-image: url(images/transperant.png);
-	background-repeat: repeat;
-	background-color:rgba(0,0,0,0.2);
+    background-image: url(images/transperant.png);
+    background-repeat: repeat;
+    background-color: rgba(0,0,0,0.1);
 }
 
 .site-title img {
@@ -1402,7 +1402,7 @@ article header {
 
 article header h1,
 article header h2  {
-	margin: 15px 0;
+	margin: 2.8vw 0;
 	font-weight: 900;
 	font-size: 3rem;
 	color: #074542;
@@ -1650,8 +1650,7 @@ p.link-more{
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 0;
-
+	margin: 3vw 0 0;
 }
 
 .no-results {
@@ -1792,20 +1791,18 @@ aside ul ul li {
 .post-base {
   display: inintial;
   width: 90%;
-  padding: 1vw 120px;
+  padding: 1vw 12vw;
   margin: 20px auto;
-  background: url('images/curseurs-g.png') no-repeat 10px calc(100% - 25px)/100px, url('images/volume.png') no-repeat 10px 1vw/7vw,url('images/volume.png') no-repeat calc(100% - 10px) 1vw/7vw,  url('images/metal-tile.jpg') #ccc;
+  background: url('images/curseurs-g.png') no-repeat 25px calc(100% - 25px)/10vw, url('images/curseurs-d.png') no-repeat calc(100% - 25px) calc(100% - 25px)/10vw, url('images/volume.png') no-repeat 25px 1vw/10vw, url('images/volume.png') no-repeat calc(100% - 25px) 1vw/10vw,  url('images/metal-tile.jpg') #ccc;
   border-radius: 20px;
 }
 
 .not-single {
   display: inline-block;
-  width: 42%;
-  margin: 20px 3vw;
+  width: 45%;
+  margin: 20px 2.4%;
   padding: 1vw 1.5vw 1vw 120px;
-
   background: url('images/curseurs-g.png') no-repeat 10px calc(100% - 25px)/100px, url('images/volume.png') no-repeat 10px 1vw/100px,  url('images/metal-tile.jpg') #ccc;
-
 }
 
 article div.ex-right {
