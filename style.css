@@ -823,57 +823,38 @@ header .site-branding h1 {
 	margin: 0;
 }
 
-header .site-branding .site-title  {
-	font-family: 'Oswald', sans-serif;
-	font-size: 0;
-	margin-top: 4vw;
-	padding: 10px;
-	word-wrap: break-word;
-	font-weight: 900;
+header .header-img .site-title,
+header .site-branding .site-title {
+  margin: 0;
+  padding: 0;
+  margin-top: calc(75px + 1vw);
+  font-family: 'Exo';
+  font-size: 8vw;
+  font-weight: 900;
+  color: rgb(211, 255, 251);
+  text-shadow: 2px 2px 2px #777;
+
 }
 
-header .header-img .site-title a {
-	font-family: inherit;
-	font-size: 8vw;
-	margin-top: 0;
-	padding: 10px;
-	word-wrap: break-word;
-	font-weight: 900;
-	color: #fff;
+header .site-branding .site-title {
 }
-
-header .header-img .site-description {
-	text-align: center;
-	color: #fff;
-	font-family: inherit;
-	margin-bottom: 100px;
-	padding: 0;
-}
-
-.header-img p {
-	margin: 0;
-	padding: 0;
-}
-
 
 header .site-branding .site-title a {
-    font-family: 'Exo';
-    color: rgb(211, 255, 251);
-    text-shadow: 2px 2px 2px #777;
     word-wrap: break-word;
     text-decoration: none;
-    font-size: 8vw;
     -webkit-transition: all 0.4s linear 0s;
     -moz-transition: all 0.4s linear 0s;
     -o-transition: all 0.4s linear 0s;
     transition: all 0.4s linear 0s;
 }
 
-header .site-branding .site-title a:hover {
+header .site-branding .site-title a:hover,
+header .header-img .site-title a:hover {
 	color: #0DA29E;
 }
 
-header  .site-branding .site-description {
+header  .site-branding .site-description,
+header .header-img .site-description {
 	text-align: center;
 	color: #42c5be;
 	font-family: inherit;
@@ -881,6 +862,27 @@ header  .site-branding .site-description {
 	margin: 0;
 	padding: 0 0 10px 5px;
 }
+
+header .header-img .site-title {
+  font-size: 85px;
+  font-weight: 900;
+}
+
+header .header-img .site-title a {
+	font-family: inherit;
+	margin-top: 0;
+  font-size: inherit;
+	word-wrap: break-word;
+  color: inherit;
+}
+header .header-img .site-description {
+  font-size: 24px;
+}
+.header-img p {
+	margin: 0;
+	padding: 0;
+}
+
 
 .sous_titre{
   display: none;
@@ -2342,7 +2344,7 @@ object {
 	}
 
 	header .header-img .site-title a {
-		font-size: 10vw;
+		font-size: inherit;
 	}
 
 	.ads-header  img {
