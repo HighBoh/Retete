@@ -655,7 +655,7 @@ textarea[name="seos-message"] {
 }
 
 .main-navigation ul ul li a {
-	background: rgba(210,254,250,0.2);
+	background: rgba(61, 160, 154, 0.67);
 	font-size: 13px;
 }
 
@@ -724,7 +724,7 @@ textarea[name="seos-message"] {
 
 .main-navigation ul li > a:after {
     color: #DEDEE2;
-    content: "›";
+    content: ">";
     font-size: 13px;
     left: 8px;
     bottom: 0px;
@@ -738,7 +738,7 @@ textarea[name="seos-message"] {
 .main-navigation ul ul li > a:after, .main-navigation ul ul ul li > a:after {
     padding-left: 0;
     color: #DEDEE2;
-    content: "›";
+    content: "â€º";
     font-size: 12px;
     left: 0;
     position: relative;
@@ -1405,7 +1405,7 @@ article header {
 
 article header h1,
 article header h2  {
-	margin: 2.8vw 0 1vw;
+	margin: 2.5vw 0 0;
 	font-weight: 900;
 	font-size: 3rem;
 	color: #074542;
@@ -1695,7 +1695,6 @@ p.link-more{
 
 .post-full .center{
   text-align: center;
-  margin: auto;
 }
 
 p.post-full-img {
@@ -1753,51 +1752,45 @@ padding: 0;
   margin: 0;
 }
 
-
-
-//sdfsdf
-
-.legende-tarifs {
+.post-full .legende-tarifs {
     display: inline-block;
-    max-width: 400px;
+    min-width: 375px;
     width: 49%;
     height: auto;
     margin: 0 2.4%;
     vertical-align: middle;
  }
 
-.legende-tarifs h2{
+.post-full .legende-tarifs h2{
   color: #064441;
   margin: 0;
   font-size: 1.7rem;
 }
 
-.cont-img-tarifs {
+.post-full .cont-img-tarifs {
     display: inline-block;
     width: 40%;
     max-width: 420px;
-    margin: 0 2.4%;
+    margin: 0;
     vertical-align: middle;
 }
 
-.img-tarifs {
+.post-full .img-tarifs {
     display: block;
     box-shadow: 3px 3px 5px #999;
     border-radius: 10px;
     width: 100%;
     max-width: 420px;
+    margin: 0;
 }
 
-.cont-tarifs {
-	display: inline-block;
-	/* max-width: 1600px; */
+.post-full .cont-tarifs {
 	width: 100%;
-	position: relative;
-	margin: 2.3vw auto;
-	text-align: center;
+	display: block;
+	margin: 60px 0;
 }
 
-.boutons-tarifs {
+.post-full .boutons-tarifs {
 	display: inline-block;
 	/* margin-right: 10%; */
 	max-width: 400px;
@@ -1811,8 +1804,9 @@ button.bt-tarifs {
     margin: 0.5vw;
 }
 
-p.text-tarifs {
-    margin-bottom: 1.8vw;
+.post-full p.text-tarifs {
+    margin-bottom: 1vw;
+    text-align: center;
     color: #182d2c;
 }
 
@@ -2309,6 +2303,108 @@ object {
 
 }
 
+@media screen and (max-width: 66.5em) {
+	.ads-header {
+		display: block;
+		float: none;
+		clear: both;
+		position: static;
+		max-width: 728px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		overflow: hidden;
+		padding-right: 0;
+	}
+
+	header .header-img .site-title a {
+		font-size: inherit;
+	}
+
+	.ads-header  img {
+			overflow: hidden;
+	}
+
+	header .site-branding  {
+		word-wrap: break-word !important;
+		max-width: 100% !important;
+		text-align: center;
+		margin: 0 auto;
+		float: none;
+
+	}
+
+	header .site-branding .site-description {
+		position: static !important;
+		width: 100%;
+		text-align: center;
+    font-size: 1.4em;
+	}
+
+	.seos-cart {
+			position: static !important;
+			max-width: 200px;
+			text-align: center;
+			margin: 0 auto;
+	}
+
+	.site-header {
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position: center;
+	}
+
+	.seos-video-home {
+		width: 200px;
+		margin: 0;
+	}
+
+	.footer-sidebar {
+		width: 100%;
+	}
+
+	.main-navigation ul li a {
+		text-align: left;
+	}
+
+  .container-images > a {
+    width: 42%;
+    margin: 1.9%;
+  }
+
+  .post-base {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .not-single {
+    width: 90%;
+    display: block;
+    margin: 0 auto 40px;
+  }
+
+  h2.entry-title {
+    font-size: 0.7em;
+  }
+
+  .ex-right > p {
+    font-size: 1.2rem;
+  }
+
+  article header h1, article header h2 {
+    font-size: 2.4rem;
+  }
+
+  .post-full p, .post-full ul, .post-full-img img {
+    width: 100%;
+  }
+
+  .post-full .cont-img-tarifs {
+    width: 90%;
+  }
+
+}
+
 
 @media screen and (max-width: 42.5em) {
 
@@ -2401,9 +2497,17 @@ object {
 		padding: 0;
 	}
 
+  header .header-img {
+    height: 150px;
+  }
+
+  header .header-img .site-title, header .site-branding .site-title {
+    margin-top: 30px;
+    font-size: 3rem;
+  }
+
 	header .site-branding .site-title  a {
-		/* font-size: 8vw; */
-		/* font-size: 10px; */
+		 font-size: inherit !important;
 	}
 
 	.woocommerce table.shop_table_responsive tr td, .woocommerce-page table.shop_table_responsive tr td {
@@ -2420,68 +2524,9 @@ object {
 		margin-top: 10px !important;
 	}
 
-}
+  article header h1, article header h2 {
+    padding: 3vw 0 0;
+    font-size: 1.7rem;
+  }
 
-@media screen and (max-width: 66.5em) {
-	.ads-header {
-		display: block;
-		float: none;
-		clear: both;
-		position: static;
-		max-width: 728px;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 20px;
-		overflow: hidden;
-		padding-right: 0;
-	}
-
-	header .header-img .site-title a {
-		font-size: inherit;
-	}
-
-	.ads-header  img {
-			overflow: hidden;
-	}
-
-	header .site-branding  {
-		word-wrap: break-word !important;
-		max-width: 100% !important;
-		text-align: center;
-		margin: 0 auto;
-		float: none;
-
-	}
-
-	header .site-branding .site-description {
-		position: static !important;
-		width: 100%;
-		text-align: center;
-	}
-
-	.seos-cart {
-			position: static !important;
-			max-width: 200px;
-			text-align: center;
-			margin: 0 auto;
-	}
-
-	.site-header {
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-position: center;
-	}
-
-	.seos-video-home {
-		width: 200px;
-		margin: 0;
-	}
-
-	.footer-sidebar {
-		width: 100%;
-	}
-
-	.main-navigation ul li a {
-		text-align: left;
-	}
 }
