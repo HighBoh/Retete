@@ -1678,6 +1678,11 @@ p.link-more{
   margin: 1vw auto;
 }
 
+.post-full-img img {
+    border-radius: 10px;
+    box-shadow: #555 5px 5px 5px;
+}
+
 .post-full p,
 .post-full ul {
   text-align: left;
@@ -1716,6 +1721,7 @@ p.post-full-intro {
 .post-full-box h2{
 font-size: 2em;
 margin-bottom: 0;
+padding: 0;
 }
 
 .post-full-box p {
@@ -1724,6 +1730,10 @@ margin-bottom: 0;
   font-size: 1.4em;
   margin: 10px auto 20px;
   text-align: justify;
+}
+
+.post-full-img img {
+
 }
 
 .post-full-box .picto{
