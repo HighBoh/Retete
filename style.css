@@ -272,6 +272,10 @@ th {
 	background-attachment: fixed;
 }
 
+.center {
+  text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -1680,7 +1684,7 @@ p.link-more{
 
 .post-full-img img {
     border-radius: 10px;
-    box-shadow: #555 5px 5px 5px;
+    box-shadow: #777 3px 3px 5px;
 }
 
 .post-full p,
