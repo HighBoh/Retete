@@ -1404,7 +1404,7 @@ article header {
 
 article header h1,
 article header h2  {
-	margin: 2.8vw 0;
+	margin: 2.8vw 0 1vw;
 	font-weight: 900;
 	font-size: 3rem;
 	color: #074542;
@@ -1652,7 +1652,7 @@ p.link-more{
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 3vw 0 0;
+	margin: 0;
 }
 
 .no-results {
@@ -1663,6 +1663,83 @@ p.link-more{
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+
+.post-full{
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #074542;
+}
+
+.post-full img {
+  width: 80%;
+  max-width: 750px;
+  margin: 1vw auto;
+}
+
+.post-full p,
+.post-full ul {
+  text-align: left;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto 20px;
+  font-size: 1.6em;
+}
+
+p.post-full-img {
+  text-align: center;
+}
+
+img.post-full-onde {
+  display: block;
+  width: 400px;
+  margin-bottom: 1.5vw;
+}
+
+p.post-full-intro {
+  text-align: center;
+  width: 100%;
+  font-size: 1.9em;
+}
+
+.post-full ul {
+
+}
+
+.post-full-box{
+  display: inline-block;
+  width: 49.5%;
+  vertical-align: top;
+}
+
+.post-full-box h2{
+font-size: 2em;
+margin-bottom: 0;
+}
+
+.post-full-box p {
+  width: 100%;
+  padding: 0 20px 0;
+  font-size: 1.4em;
+  margin: 10px auto 20px;
+  text-align: justify;
+}
+
+.post-full-box .picto{
+  width: 165px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.post-full-box .picto img{
+  width: 100%;
+  margin: 0;
+}
+
+
+
+//sdfsdf
 
 .legende-tarifs {
     display: inline-block;
