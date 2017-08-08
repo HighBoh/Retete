@@ -272,9 +272,6 @@ th {
 	background-attachment: fixed;
 }
 
-.center {
-  text-align: center;
-}
 
 /*--------------------------------------------------------------
 # Typography
@@ -1689,11 +1686,16 @@ p.link-more{
 
 .post-full p,
 .post-full ul {
-  text-align: left;
+  text-align: justify;
   width: 80%;
   max-width: 900px;
   margin: 0 auto 20px;
   font-size: 1.6em;
+}
+
+.post-full .center{
+  text-align: center;
+  margin: auto;
 }
 
 p.post-full-img {
