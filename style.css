@@ -866,6 +866,7 @@ header .header-img .site-description {
 
 header .header-img .site-title {
   font-size: 85px;
+  /*line-height: 90px;*/
   font-weight: 900;
 }
 
@@ -1703,7 +1704,8 @@ p.post-full-img {
 
 img.post-full-onde {
   display: block;
-  width: 400px;
+  width: 80%;
+  max-width: 400px;
   margin-bottom: 1.5vw;
 }
 
@@ -2504,9 +2506,11 @@ object {
 	}
 
   body.home .sous_titre {
-    height: 680px;
+    height: auto;
+    font-size: 1.2rem;
+    padding-bottom: 70px;
   }
-  
+
   header .header-img {
     height: 150px;
   }
@@ -2549,24 +2553,73 @@ object {
 
   article header h1, article header h2 {
     padding: 10px 0;
-    font-size: 1.7rem;
+    font-size: 5.6vw;
   }
 
   article header h1 {
     padding: 0;
-    margin: 5px 0 0;
+    margin: 3px 0 0;
   }
 
   .post-base {
-    padding: 10px 20px !important;
+    padding: 10px 20px 20px !important;
+    width: 95% !important;
+    margin: 10px auto !important;
+    background:
+    url('images/curseurs-g.png') no-repeat 10px calc(100% - 10px)/40px,
+    url('images/curseurs-d.png') no-repeat calc(100% - 10px) calc(100% - 10px)/40px,
+    url('images/volume.png') no-repeat 6px 1vw/50px,
+    url('images/volume.png') no-repeat calc(100% - 6px) 1vw/50px,
+    url('images/metal-tile.jpg') #ccc
   }
 
   .not-single {
-    margin: 20px 0 !important;
+    margin: 20px auto !important;
     background:
-    url('images/curseurs-g.png') no-repeat 25px calc(100% - 25px)/80px,
-    url('images/curseurs-d.png') no-repeat calc(100% - 25px) calc(100% - 25px)/80px,
+    url('images/curseurs-g.png') no-repeat 25px calc(100% - 25px)/70px,
+    url('images/curseurs-d.png') no-repeat calc(100% - 25px) calc(100% - 25px)/70px,
     url('images/metal-tile.jpg') #ccc
+  }
+
+  .post-full p, .post-full ul {
+    font-size: 1rem;
+  }
+
+  p.post-full-intro {
+    font-size: 1.1rem;
+  }
+
+  .post-full-box {
+    width: 100%;
+  }
+
+  .post-full-box p {
+    padding: 0;
+  }
+
+  .post-full ul {
+    padding: 0 0px 0 15px;
+  }
+
+  .post-full .cont-tarifs {
+    margin: 30px 0;
+  }
+
+  .post-full .legende-tarifs{
+    min-width: inherit;
+    width: 100%;
+  }
+
+  .post-full .legende-tarifs h2 {
+    font-size: 1.3rem;
+  }
+
+  .post-full p.text-tarifs {
+    font-size: 1.1rem;
+  }
+
+  .read-more {
+    padding:10px 18px;
   }
 
 }
