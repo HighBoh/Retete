@@ -310,9 +310,9 @@ p {
 	padding: 0;
 }
 
-article p, aside a, main p {
+article p, aside a, main p, article ul {
 	text-shadow: 0px 1px 2px #999;
-	line-height: 1em;
+	line-height: 1.1em;
 	font-size: 1.5em;
 }
 
@@ -2215,8 +2215,9 @@ object {
 
 .container-images .sp-image {
 	width: 100%;
+	max-width: 400px;
 	display: block;
-	margin: 0;
+	margin: auto;
 	position: relative;
 	z-index: 1;
 	-webkit-transition: all 0.3s linear 0s;
@@ -2245,6 +2246,7 @@ object {
 	border-radius: 6px;
 	width: 100%;
 	max-width: 400px;
+	margin: auto;
 }
 
 .container-images .sp-image:hover .sp-overlay {
@@ -2372,6 +2374,10 @@ object {
     margin: 1.9%;
   }
 
+  .container-images .sp-title{
+    font-size: 4vw;
+  }
+
   .post-base {
     width: 100%;
     margin: 0 auto;
@@ -2497,18 +2503,31 @@ object {
 		padding: 0;
 	}
 
+  body.home .sous_titre {
+    height: 680px;
+  }
+  
   header .header-img {
     height: 150px;
   }
 
   header .header-img .site-title, header .site-branding .site-title {
     margin-top: 30px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
 	header .site-branding .site-title  a {
 		 font-size: inherit !important;
 	}
+
+  .sous-titre-centre{
+    width: 90%;
+    padding: 70px 1vw 0;
+  }
+
+  header .header-img .site-description {
+    font-size: 18px;
+  }
 
 	.woocommerce table.shop_table_responsive tr td, .woocommerce-page table.shop_table_responsive tr td {
 		padding: 30px !important;
@@ -2524,9 +2543,30 @@ object {
 		margin-top: 10px !important;
 	}
 
+  .container-images .sp-title {
+    font-size: 8vw;
+  }
+
   article header h1, article header h2 {
-    padding: 3vw 0 0;
+    padding: 10px 0;
     font-size: 1.7rem;
+  }
+
+  article header h1 {
+    padding: 0;
+    margin: 5px 0 0;
+  }
+
+  .post-base {
+    padding: 10px 20px !important;
+  }
+
+  .not-single {
+    margin: 20px 0 !important;
+    background:
+    url('images/curseurs-g.png') no-repeat 25px calc(100% - 25px)/80px,
+    url('images/curseurs-d.png') no-repeat calc(100% - 25px) calc(100% - 25px)/80px,
+    url('images/metal-tile.jpg') #ccc
   }
 
 }
